@@ -57,8 +57,9 @@ After the first execution, the startup will be quick and won't require internet 
 
 For more configuration options of the container, see [its homepage on Github](https://github.com/jupyter/docker-stacks/tree/master/scipy-notebook).
 
-# Access the Python Data Science stack
+# Access the Jupyter Notebook
 
 * Open a browser on your local machine (Chrome recommended, but any browser should work)
-* Type `localhost:8888` on your browser bar
+* Find the address of the container, for Linux it is `localhost`, for Windows, you can find out by typing `docker-machine ip default` in the `Docker Quickstart Terminal` (generally `192.168.99.100`).
+* Type `container_address:8888` on your browser bar, e.g. `192.168.99.100:8888` on Windows, localhost:8888 on Linux.
 * You should now visualize the Jupyter Notebook dashboard, in particular you should see the `Python4DS` folder.
