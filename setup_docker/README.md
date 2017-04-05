@@ -41,9 +41,9 @@ For example create a folder named `Python4DS` in your home folder. This folder w
 
 If you are installing Docker on your personal laptop or desktop, you can run (possibly add `sudo` at the beginning for Linux): 
 
-    docker run -d -p 8888:8888 jupyter/scipy-notebook start-notebook.sh --NotebookApp.token='' -v /some/host/folder/for/Python4DS:/home/jovyan/Python4DS
+    docker run -d -p 8888:8888 -v /some/host/folder/for/Python4DS:/home/jovyan/work jupyter/scipy-notebook start-notebook.sh --NotebookApp.token='' 
     
-Instead of `/some/host/folder/for/Python4DS`, use the full path to the folder you created above.
+Instead of `/some/host/folder/for/Python4DS`, use the full path to the folder you created above. This will be mounted in the containter at the location `/home/jovyan/work` which is the starting folder of Jupyter Notebook.
 
 **FIXME** how does this work on windows??
     
