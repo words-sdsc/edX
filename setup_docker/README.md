@@ -1,6 +1,6 @@
 In order to simplify the setup of a common environment for all students on any Operating System, we recommend to run Python using `Docker`. Thanks to `Docker`, you can access the Jupyter Notebook and all of the Python Data Science stack without installing any library on your computer. Just install `Docker` and then download a **container** that packages up all the required libraries and use your browser to connect to the Jupyter Notebook running inside this container.
 
-# Install Docker
+# 1) Install Docker
 
 ## Windows 10
 
@@ -31,7 +31,7 @@ https://docs.docker.com/engine/installation/linux/
 
 Then follow the instructions to install the **Community Edition (CE)** and choose the `stable` channel.
 
-# Install and run the Scientific Python docker container
+# 2) Install and run the Scientific Python docker container
 
 ## Create a folder on your machine to preserve your work
 
@@ -74,7 +74,7 @@ Now that the container has already been created, you can launch it with:
 
     docker start python4ds
     
-# Troubleshooting
+# 3) Troubleshooting
 
 ## Wipe and create again the container
 
