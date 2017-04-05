@@ -37,17 +37,18 @@ Then follow the instructions to install the **Community Edition (CE)** and choos
 
 For example create a folder named `Python4DS` in your home folder. This folder will be available within the container so that you can save your work back to your host Operative System.
 
+On Mac/Linux, open a terminal, type `cd` and enter to make sure you are in your home folder and create a folder with `mkdir Python4DS`.
+On Windows, open the `Docker Quickstart Terminal` and create a folder with `mkdir Python4DS`.
+
 ## Launch the container
 
 If you are installing Docker on your personal laptop or desktop, you can run (possibly add `sudo` at the beginning for Linux): 
 
     docker run -d -p 8888:8888 -v /some/host/folder/for/Python4DS:/home/jovyan/work jupyter/scipy-notebook start-notebook.sh --NotebookApp.token='' 
     
-Instead of `/some/host/folder/for/Python4DS`, use the full path to the folder you created above. This will be mounted in the containter at the location `/home/jovyan/work` which is the starting folder of Jupyter Notebook.
-
-**FIXME** how does this work on windows??
+Instead of `/your/home/folder/Python4DS`, use the full path to the folder you created above, generally it will be `/home/yourusername/Python4DS` on Linux, `/Users/yourusername/Python4DS` on Mac and `/c/Users/yourusername/Python4DS` on Windows. This will be mounted in the containter at the location `/home/jovyan/work` which is the starting folder of Jupyter Notebook.
     
-Instead if you are using a shared system, launch the same command but remove the keyword `--NotebookApp.token='', the Notebook will provide an authentication token to prevent other users from connecting to your Notebook:
+Instead if you are using a shared system, launch the same command but remove the keyword `--NotebookApp.token=''`, the Notebook will provide an authentication token to prevent other users from connecting to your Notebook:
 
 
 Just for the first time, the execution of this command will download more than 1 GB of data and will require 20 or more minutes, depending on the speed of your internet connection and performance of your machine.
