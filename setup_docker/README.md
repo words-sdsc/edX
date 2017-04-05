@@ -83,3 +83,11 @@ If you have a configuration issue in the container you can delete with:
     docker rm -f python4ds
     
 then follow the instructions in "Launch the container for the first time" to create it again.
+
+## Certificate issue on Windows 7/8
+
+Docker might give the warning:
+
+    Unable to use system certificate pool: crypto/x509: system root pool is not available on Windows
+    
+This does not impact the functionality of Docker, eveything should work as expected.
