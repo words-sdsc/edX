@@ -40,11 +40,11 @@ For example create a folder named `Python4DS` in your home folder. This folder w
 On Mac/Linux, open a terminal, type `cd` and enter to make sure you are in your home folder and create a folder with `mkdir Python4DS`.
 On Windows, open the `Docker Quickstart Terminal` and create a folder with `mkdir Python4DS`.
 
-## Launch the container
+## Launch the container for the first time
 
 If you are installing Docker on your personal laptop or desktop, you can run (possibly add `sudo` at the beginning for Linux): 
 
-    docker run -d -p 8888:8888 -v /some/host/folder/for/Python4DS:/home/jovyan/work jupyter/scipy-notebook start-notebook.sh --NotebookApp.token='' 
+    docker run -d -p 8888:8888 --name python4ds -v /some/host/folder/for/Python4DS:/home/jovyan/work jupyter/scipy-notebook start-notebook.sh --NotebookApp.token='' 
     
 Instead of `/your/home/folder/Python4DS`, use the full path to the folder you created above, generally it will be `/home/yourusername/Python4DS` on Linux, `/Users/yourusername/Python4DS` on Mac and `/c/Users/yourusername/Python4DS` on Windows. This will be mounted in the containter at the location `/home/jovyan/work` which is the starting folder of Jupyter Notebook.
     
@@ -57,9 +57,29 @@ After the first execution, the startup will be quick and won't require internet 
 
 For more configuration options of the container, see [its homepage on Github](https://github.com/jupyter/docker-stacks/tree/master/scipy-notebook).
 
-# Access the Jupyter Notebook
+## Access the Jupyter Notebook
 
 * Open a browser on your local machine (Chrome recommended, but any browser should work)
 * Find the address of the container, for Linux it is `localhost`, for Windows, you can find out by typing `docker-machine ip default` in the `Docker Quickstart Terminal` (generally `192.168.99.100`).
 * Type `container_address:8888` on your browser bar, e.g. `192.168.99.100:8888` on Windows, localhost:8888 on Linux.
 * You should now visualize the Jupyter Notebook dashboard, in particular you should see the `Python4DS` folder.
+
+## Stop the execution of the container
+
+From the terminal on your host system or the `Docker Quickstart Terminal`, type `docker ps` to check the running containters, then `docker stop python4ds` to stop the execution of the container.
+
+## Launch the container again
+
+Now that the container has already been created, you can launch it with:
+
+    docker start python4ds
+    
+# Troubleshooting
+
+## Wipe and create again the container
+
+If you have a configuration issue in the container you can delete with:
+
+    docker rm -f python4ds
+    
+then follow the instructions in "Launch the container for the first time" to create it again.
