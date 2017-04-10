@@ -28,6 +28,8 @@ Docker for Mac has substantial system requirements, check on the **System requir
 
 * Choose the `Stable` version
 
+If you have an older system, install `Docker Toolbox for Mac` from <https://docs.docker.com/toolbox/toolbox_install_mac/>
+
 ## Linux
 
 Check if your distribution is supported on the Docker official website:
@@ -38,7 +40,9 @@ Then follow the instructions to install the **Community Edition (CE)** and choos
 
 # 2) Open a terminal
 
-* On Mac/Linux, open a Terminal application, type `cd` and enter to make sure you are in your home folder
+* On Linux open a Terminal application, type `cd` and enter to make sure you are in your home folder
+* On a newer Mac with Docker for Mac, ?
+* On an older Mac with Docker Toolbox for Mac, open the `Docker Quickstart Terminal`
 * If you installed Docker for Windows in Windows 10, open Microsoft Powershell or the Command Prompt (search within the Windows applications)
 * If you installed Docker Toolbox for Windows, open the `Docker Quickstart Terminal`
 
@@ -73,7 +77,7 @@ For more configuration options of the container, see [its homepage on Github](ht
 
 * On Linux and on Docker for Windows (Windows 10) with Hyper-v enabled (see section 1), the address is always `localhost`.
 * On Docker for Windows (Windows 10) with VirtualBox, open a terminal, type `ipconfig` and look for a `VirtualBox Host-Only adapter` and look for its `IPv4 Address`, it should generally be `192.168.56.1`.
-* On Docker Toolbox for Windows (Windows 7 or later), open a terminal and type `docker-machine ip default` (generally `192.168.99.100`)
+* On Docker Toolbox for Mac or Windows (Windows 7 or later), open a terminal and type `docker-machine ip default` (generally `192.168.99.100`), this address should also be displayed at the launch of the `Docker Quickstart Terminal`
 
 ## Access the Jupyter Notebook
 
