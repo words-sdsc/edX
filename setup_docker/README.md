@@ -63,6 +63,8 @@ If you are installing Docker on your personal laptop or desktop, you can run (po
     docker run -d -p 8888:8888 --name python4ds -v /c/Users/yourusername/Python4DS:/home/jovyan/work jupyter/scipy-notebook start-notebook.sh --NotebookApp.token='' 
     
 Instead of `/your/home/folder/Python4DS`, use the full path to the folder you created above, generally it will be `/home/yourusername/Python4DS` on Linux, `/Users/yourusername/Python4DS` on Mac and `/c/Users/yourusername/Python4DS` on Windows. This will be mounted in the containter at the location `/home/jovyan/work` which is the starting folder of Jupyter Notebook.
+
+If you cannot copy-paste the command into the Terminal on Windows, right-click with the mouse on the window title and choose Edit then Paste from the menu.
     
 Instead if you are using a shared system, launch the same command but remove the keyword `--NotebookApp.token=''`, the Notebook will provide an authentication token to prevent other users from connecting to your Notebook.
 
