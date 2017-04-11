@@ -64,10 +64,9 @@ If you are installing Docker on your personal laptop or desktop, you can run (po
     
 Instead of `/your/home/folder/Python4DS`, use the full path to the folder you created above, generally it will be `/home/yourusername/Python4DS` on Linux, `/Users/yourusername/Python4DS` on Mac and `/c/Users/yourusername/Python4DS` on Windows. This will be mounted in the containter at the location `/home/jovyan/work` which is the starting folder of Jupyter Notebook.
     
-Instead if you are using a shared system, launch the same command but remove the keyword `--NotebookApp.token=''`, the Notebook will provide an authentication token to prevent other users from connecting to your Notebook:
+Instead if you are using a shared system, launch the same command but remove the keyword `--NotebookApp.token=''`, the Notebook will provide an authentication token to prevent other users from connecting to your Notebook.
 
-
-Just for the first time, the execution of this command will download more than 1 GB of data and will require 20 or more minutes, depending on the speed of your internet connection and performance of your machine.
+Just for the first time, Docker will have to download all of the layers of the filesystem of the containter (~2GB) and will require 20 or more minutes, depending on the speed of your internet connection and performance of your machine.
 
 After the first execution, the startup will be quick and won't require internet connection.
 
