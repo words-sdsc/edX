@@ -83,7 +83,7 @@ For more configuration options of the container, see [its homepage on Github](ht
 ## Access the Jupyter Notebook
 
 * Open a browser on your local machine (Chrome recommended, but any browser should work)
-* Type `container_address:8888` on your browser bar, e.g. `192.168.99.100:8888` or localhost:8888
+* Type `http://container_address:8888` on your browser bar, e.g. `http://192.168.99.100:8888` or `http://localhost:8888`
 * You should now visualize the Jupyter Notebook dashboard, in particular you should see the content of the `Python4DS` folder, possibly empty.
 
 ## Stop the execution of the container
