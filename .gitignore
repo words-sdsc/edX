@@ -2,3 +2,5 @@
 *.zip
 *.csv
 *.txt
+virtual_grades.csv
+vis*.png
