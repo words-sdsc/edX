@@ -2,6 +2,7 @@
 *.zip
 *.csv
 *.txt
-virtual_grades.csv
-vis*.png
+*.png
 world-development-indicators
+.ipynb_checkpoints
+*.pkl
