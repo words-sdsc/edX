@@ -1,0 +1,15 @@
+[NbGraderApp | INFO] New config file saved to 'nbgrader_config.py'
+[AssignApp | ERROR] No assignment called 'test' exists in the database
+[DbApp | ERROR] No db command given (run with --help for options)
+[NbGraderApp | ERROR] No command given (run with --help for options)
+[NbGraderApp | ERROR] No command given (run with --help for options)
+[AssignApp | INFO] Copying /home/jovyan/work/edX/Exercise Notebooks/test1/source/./ps1/jupyter.png -> /home/jovyan/work/edX/Exercise Notebooks/test1/release/./ps1/jupyter.png
+[AssignApp | INFO] Updating/creating assignment 'ps1': {}
+[AssignApp | INFO] Converting notebook /home/jovyan/work/edX/Exercise Notebooks/test1/source/./ps1/problem1.ipynb to notebook
+[AssignApp | INFO] Writing 7452 bytes to /home/jovyan/work/edX/Exercise Notebooks/test1/release/./ps1/problem1.ipynb
+[AssignApp | INFO] Converting notebook /home/jovyan/work/edX/Exercise Notebooks/test1/source/./ps1/problem2.ipynb to notebook
+[AssignApp | INFO] Writing 1443 bytes to /home/jovyan/work/edX/Exercise Notebooks/test1/release/./ps1/problem2.ipynb
+[AssignApp | INFO] Setting destination file permissions to 644
+[DbApp | ERROR] No db command given (run with --help for options)
+[DbAssignmentAddApp | INFO] Creating/updating assignment with ID 'test': {'duedate': None}
+[AssignApp | ERROR] No notebooks were matched by '/home/jovyan/work/edX/Exercise Notebooks/test1/source/./ps1pwd'
