@@ -1,5 +1,5 @@
 #
-# Utility functions for Spark Cluster Analysis Hands-On
+# Utility functions
 #
 #
 from itertools import cycle, islice
@@ -24,7 +24,7 @@ def pd_centers(featuresUsed, centers):
 	return P
 
 # Function that creates Parallel Plot
-def parallel_plot(data, P):
-	my_colors = list(islice(cycle(['b', 'r', 'g', 'y', 'k']), None, len(P)))
+def parallel_plot(data):
+	my_colors = list(islice(cycle(['b', 'r', 'g', 'y', 'k']), None, len(data)))
 	plt.figure(figsize=(15,8)).gca().axes.set_ylim([-3,+3])
 	parallel_coordinates(data, 'prediction', color = my_colors, marker='o')
