@@ -13,3 +13,12 @@
 [DbApp | ERROR] No db command given (run with --help for options)
 [DbAssignmentAddApp | INFO] Creating/updating assignment with ID 'test': {'duedate': None}
 [AssignApp | ERROR] No notebooks were matched by '/home/jovyan/work/edX/Exercise Notebooks/test1/source/./ps1pwd'
+[NbGraderApp | ERROR] No command given (run with --help for options)
+[DbAssignmentAddApp | INFO] Creating/updating assignment with ID 'numpy': {'duedate': None}
+[AssignApp | INFO] Converting notebook /data/home/a1singh/edX/Exercise Notebooks/test1/source/./numpy/numpy Exercise Notebook.ipynb to notebook
+[AssignApp | INFO] Writing 5026 bytes to /data/home/a1singh/edX/Exercise Notebooks/test1/release/./numpy/numpy Exercise Notebook.ipynb
+[AssignApp | INFO] Setting destination file permissions to 644
+[AssignApp | INFO] Skipping existing assignment: /data/home/a1singh/edX/Exercise Notebooks/test1/release/numpy
+[AssignApp | INFO] Converting notebook /data/home/a1singh/edX/Exercise Notebooks/test1/source/./numpy/numpy Exercise Notebook.ipynb to notebook
+[AssignApp | INFO] Writing 5026 bytes to /data/home/a1singh/edX/Exercise Notebooks/test1/release/./numpy/numpy Exercise Notebook.ipynb
+[AssignApp | INFO] Setting destination file permissions to 644
