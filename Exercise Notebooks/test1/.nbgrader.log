@@ -101,3 +101,7 @@
 [AssignApp | INFO] Converting notebook /data/home/a1singh/edX/Exercise Notebooks/test1/source/./numpy/numpy Exercise Notebook.ipynb to notebook
 [AssignApp | INFO] Writing 19539 bytes to /data/home/a1singh/edX/Exercise Notebooks/test1/release/./numpy/numpy Exercise Notebook.ipynb
 [AssignApp | INFO] Setting destination file permissions to 644
+[DbAssignmentAddApp | INFO] Creating/updating assignment with ID 'classification': {'duedate': None}
+[AssignApp | INFO] Converting notebook /data/home/a1singh/edX/Exercise Notebooks/test1/source/./classification/classification Exercise Notebook.ipynb to notebook
+[AssignApp | INFO] Writing 12615 bytes to /data/home/a1singh/edX/Exercise Notebooks/test1/release/./classification/classification Exercise Notebook.ipynb
+[AssignApp | INFO] Setting destination file permissions to 644
