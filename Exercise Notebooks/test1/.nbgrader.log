@@ -109,3 +109,7 @@
 [AssignApp | INFO] Converting notebook /data/home/a1singh/edX/Exercise Notebooks/test1/source/./regression/regression Exercise Notebook.ipynb to notebook
 [AssignApp | INFO] Writing 11342 bytes to /data/home/a1singh/edX/Exercise Notebooks/test1/release/./regression/regression Exercise Notebook.ipynb
 [AssignApp | INFO] Setting destination file permissions to 644
+[DbAssignmentAddApp | INFO] Creating/updating assignment with ID 'clustering': {'duedate': None}
+[AssignApp | INFO] Converting notebook /data/home/a1singh/edX/Exercise Notebooks/test1/source/./clustering/clustering Exercise Notebook.ipynb to notebook
+[AssignApp | INFO] Writing 12478 bytes to /data/home/a1singh/edX/Exercise Notebooks/test1/release/./clustering/clustering Exercise Notebook.ipynb
+[AssignApp | INFO] Setting destination file permissions to 644
