@@ -117,3 +117,7 @@
 [AssignApp | INFO] Converting notebook /data/home/a1singh/edX/Exercise Notebooks/test1/source/./classification/classification Exercise Notebook.ipynb to notebook
 [AssignApp | INFO] Writing 12689 bytes to /data/home/a1singh/edX/Exercise Notebooks/test1/release/./classification/classification Exercise Notebook.ipynb
 [AssignApp | INFO] Setting destination file permissions to 644
+[DbAssignmentAddApp | INFO] Creating/updating assignment with ID 'matplotlib': {'duedate': None}
+[AssignApp | INFO] Converting notebook /data/home/a1singh/edX/Exercise Notebooks/test1/source/./matplotlib/matplotlib Exercise Notebook.ipynb to notebook
+[AssignApp | INFO] Writing 9179 bytes to /data/home/a1singh/edX/Exercise Notebooks/test1/release/./matplotlib/matplotlib Exercise Notebook.ipynb
+[AssignApp | INFO] Setting destination file permissions to 644
