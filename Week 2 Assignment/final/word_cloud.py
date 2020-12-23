@@ -36,7 +36,9 @@ wordcount={}
 # 2. For each word in the input file:
 #    a. use .lower() to make lower case and .strip() to remove whitespace
 #    b. use .replace(<from>,<to>) to replace each ".", ",", "\"" <-- the \" allows
-#       you to remove a quotation mark
+#       you to remove a quotation mark.  For example:
+#word="banana".replace("a","0")
+#print(word)
 #    c. check to make sure the word isn't in the list of stopwords.  If it isn't:
 #    d. if the word isn't already in your dictionary, add it with the count of 1.
 #       if the word is in the dictionary, add 1 to the present count
