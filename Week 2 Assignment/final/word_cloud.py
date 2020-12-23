@@ -58,7 +58,6 @@ wordcount={}
 d = collections.Counter(wordcount)
 
 # Lastly, you'll want to iterate through the 10 most common elements
-# in the collection, e.g., using d.most_common(10) and print the word and its count
+# in the collection, e.g., using d.most_common(10) which returns a tuple
+# and print the word and its count
 # TODO YOUR CODE HERE
-for word, count in d.most_common(num_words):
-	print(word, ": ", count)
